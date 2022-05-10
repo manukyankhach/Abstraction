@@ -9,6 +9,10 @@ namespace World
     public class Armenia : World
     {
         //_countOfPeauple = 3000000;  chi jarangvum abstract classi voch abstract fild@
+        public Armenia(): base("land")
+        {
+
+        }
         public override string Nationality { get; set; } = "ARM";
 
         public override void Live()

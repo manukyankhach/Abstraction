@@ -9,6 +9,12 @@ namespace World
     public abstract class World
     {
         public int _countOfPeauple;
+
+        public string _land;
+        public World(string land)
+        {
+            _land = land;
+        }
         public abstract string Nationality { get; set; }
         public abstract void Live();
     }
